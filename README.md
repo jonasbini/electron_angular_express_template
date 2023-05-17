@@ -12,10 +12,30 @@ npm install
 
 ## Running locally
 
-Make angular build and start electron with the project builded.
+First, make build of angular project. Go to angular folder and run the following command:
 
 ```bash
-npm run start-electron
+npm run build
+```
+
+Then, go to root folder and run the following command to start electron with express and angular build:
+
+```bash
+npm run start
+```
+
+## Running projects without electron
+
+Go to angular folder and run the following command to start angular:
+
+```bash
+npm run serve
+```
+
+Go to express folder and run the following command to start express API:
+
+```bash
+node index.js
 ```
 
 ## Reference
